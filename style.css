@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+    color:green;
+    font-size: 60px;
+    text-decoration:underline;
+    font-family:"bref";
+}
+.container{
+    width:100vw;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 8%
+}
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+}
+.gallery-img{
+    width:100%;
+}
+.background{
+    background-image:linear-gradient(#42e9f5,#aa42f5);
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
